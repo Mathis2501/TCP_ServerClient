@@ -55,8 +55,6 @@ namespace TCP_Server
                 while (true)
 
                 {
-                    
-
                     IPEndPoint remoteIpEndPoint = clientSocket.Client.RemoteEndPoint as IPEndPoint;
                     IPEndPoint localIpEndPoint = clientSocket.Client.LocalEndPoint as IPEndPoint;
 
